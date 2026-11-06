@@ -1,4 +1,4 @@
-# Igor: contexto público
+# Grupo Avant: contexto público
 
 Este repositório mantém resumos publicáveis de empresas, produtos, projetos, papéis e demandas. O código dos produtos está nos repositórios de [produtos/README.md](produtos/README.md).
 

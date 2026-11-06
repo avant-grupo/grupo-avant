@@ -1,4 +1,4 @@
-# Igor: contexto de projetos
+# Grupo Avant: contexto de projetos
 
 Contexto compartilhado do trabalho com Igor, GomaPet e Grupo Avant. Este repositório apresenta os negócios, os produtos, as pessoas que participam das frentes e o backlog para discussão.
 
