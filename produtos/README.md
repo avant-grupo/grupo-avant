@@ -6,8 +6,8 @@ O código fica nos repositórios dos produtos. Este repositório mantém o conte
 |---|---|---|
 | [Creator Studio](creator-studio.md) | Referências, roteiro, criação, edição e produção de conteúdo. | [avant-grupo/creator-studio](https://github.com/avant-grupo/creator-studio) |
 | [Central Avant](central.md) | Pessoas, empresas, demandas, Judite e acesso aos produtos. | [avant-grupo/central](https://github.com/avant-grupo/central) |
-| [BI GomaPet](gomapet-bi.md) | Métricas, vendas, financeiro e tráfego da GomaPet. | [avant-grupo/gomapet-frontend](https://github.com/avant-grupo/gomapet-frontend) |
-| [Operação X1](operacao-x1.md) | Painel e regras próprios da X1. | [avant-grupo/operacao-x1](https://github.com/avant-grupo/operacao-x1) |
+| [BI GomaPet](gomapet-bi.md) | Métricas, vendas, financeiro e tráfego da GomaPet. | [avant-grupo/avant-bi](https://github.com/avant-grupo/avant-bi), em `apps/gomapet` |
+| [Operação X1](operacao-x1.md) | Painel e regras próprios da X1. | [avant-grupo/avant-bi](https://github.com/avant-grupo/avant-bi), em `apps/x1` |
 
 ## Componentes de apoio
 

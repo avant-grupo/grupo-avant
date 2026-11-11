@@ -43,3 +43,86 @@ Yuri aprovou as quatro peças em 05/11/2026 e liberou o escopo publicado para te
 ## Relações
 
 Produto relacionado: [creator-studio](../produtos/creator-studio.md). Demandas relacionadas estão no [backlog](../backlog/README.md); a responsabilidade individual é confirmada na demanda.
+
+
+## Pesquisa de pessoa realista, 06/11/2026
+
+Concluído um experimento autorizado de 72 retratos, comparando seis modelos de imagem, quatro direções de prompt e três repetições. A revisão encontrou diferenças de textura, composição e aparência entre famílias; somar as técnicas não trouxe melhora uniforme. O resultado é pesquisa, sem mudança do Creator Studio ou escolha permanente de fornecedor. Próximo: selecionar a aparência de uma pessoa e propor a validação de identidade em outras poses e cenas.
+
+
+## Storyboard com identidade e cenário contínuos, 06/11/2026
+
+Concluído um experimento de roteiro com oito tomadas e imagens de referência para uma peça GomaPet, mantendo personagem, cão e cenário externo. A sequência combina apresentação e detalhes do produto, com revisão da embalagem. A animação foi autorizada em seguida e o experimento evoluiu para uma peça de 35,6 s, com voz contínua, três tomadas de fala sincronizada e inserções do produto e cão, em 12 seções na revisão v2. A abertura foi gerada novamente após identificação de replay na primeira edição; a sequência do pote também passou a avançar sem reiniciar. Validação técnica e revisão temporal focalizada concluídas, preservando o áudio por hash. A fala nativa variou entre tomadas; a versão entregue usa narração única com sincronização. Também foi preparada uma prévia a 1,2x, com 29,7s e tom da voz preservado, para comparar o ritmo; ritmo a 1,2x aprovado para esta peça, sem preset universal. A revisão editorial da versão a 1,0x identificou ajustes de naturalidade do gesto com o produto, ritmo de cortes e copy baseada em referências UGC; a prévia a 1,2x recebeu aprovação posterior quanto ao ritmo. Copy baseada em referências UGC continua pendente. A revisão v3 refez a imagem e a tomada falada para apresentar a goma na palma baixa, reposicionando a legenda e preservando o áudio no ritmo aprovado de 1,2x. A regra UGC16 foi implementada e validada localmente no Studio para orientar função do objeto e checagem da pose; 69 testes, typecheck e lint sem erros. Publicação do sistema pendente; avaliação editorial da nova peça ainda necessária. Aprovação de ritmo não representa aceite final da peça. Experimento fora do produto, sem integração ao montador, publicação de campanha ou resultado de desempenho.
+
+
+## Revisão de ritmo de um criativo, 06/11/2026
+
+Uma peça GomaPet foi remontada com corte de pausas e aceleração de vídeo/voz a 1,2x, preservando o tom e ajustando as legendas. Duração reduzida de 63,9 s para 48,6 s, com validação técnica concluída. Ritmo e naturalidade do áudio receberam avaliação positiva de Yuri. Próximo refinamento identificado: reforçar a correspondência entre fala e imagem nos sinais de pele; nova edição ainda não autorizada. Experimento fora do produto, sem integração do preset ao montador ou resultado de campanha.
+
+
+## Piloto de ideação visual com dois modelos, 06/11/2026
+
+Dois criadores independentes propuseram 12 cenas para três trechos de um criativo GomaPet, com falas preservadas e duração medida. A curadoria selecionou três tomadas e alternativas de reserva para melhorar a correspondência entre fala e imagem. O roteiro passou a registrar se a informação aparece desde o primeiro quadro ou é revelada durante a cena, com instante e justificativa. É um teste de roteiro em texto, ainda sem geração de novas imagens/clipes ou integração ao produto; próxima ação é avaliação editorial da seleção.
+
+
+## Reprodução local antes da integração, 06/11/2026
+
+Decidido priorizar a reprodução consistente dos criativos em um ambiente local antes de incorporar novos refinamentos ao Creator Studio. A estrutura de trabalho separa copy, direção visual e edição, com regras, modelos, referências por peça e revisão de qualidade. Preparação local concluída e um piloto textual organizado; geração de nova mídia e validação ponta a ponta ainda pendentes. Esta entrega não altera o sistema publicado. O ambiente local foi aprofundado com biblioteca de casos de uso, prompts de roteiro/direção/edição, hooks comentados e revisão com origem da evidência. O preparo seleciona contexto por tarefa e passou em verificações locais; qualidade dos novos prompts em geração real e reprodução completa continuam pendentes.
+
+
+## Fundamentos criativos antes do produto, 06/11/2026
+
+O estúdio local passou a priorizar hooks, conversão, estrutura de história, viradas, geração de imagem e personagens antes de definir produto. Preparados seis tópicos e oito prompts com exercícios neutros, incluindo character sheets e revisão de identidade. O preparo funciona sem campanha ou oferta e preserva os fluxos anteriores, com verificações locais concluídas. A aplicação em mídia e a medição de desempenho continuam pendentes; esta organização não altera o sistema publicado.
+
+
+## Autonomia do ambiente de estudo, 06/11/2026
+
+O estúdio local passou a incluir os dossiês, prompts de origem, exemplos e referências necessários à consulta e ao preparo, com caminhos relativos e inventário de integridade. A pasta foi validada em outro diretório, preservando os fluxos existentes. A mudança organiza o ambiente de trabalho; não altera o sistema publicado nem representa resultado de campanha.
+
+
+## Base criativa em subskills Markdown, 06/11/2026
+
+O estúdio local foi reorganizado em sete módulos: personagens e character sheets, hooks, conversão, storytelling, imagens, referências e edição. Cada módulo reúne método, prompts, exemplos e referências visuais locais. Personagens recebeu um dossiê específico para identidade, vistas, textura, montagem e revisão. Os textos de consulta estão em Markdown; a estrutura técnica anterior foi preservada no histórico. Navegação e portabilidade verificadas, com uma tarefa textual de uso do módulo de personagens. Sem nova geração de mídia, instalação global ou alteração do sistema publicado. Próximo: exercitar um módulo e revisar suas saídas antes de ampliar a aplicação.
+
+
+## Pesquisa de hooks de alto impacto, 06/11/2026
+
+Concluídas duas rodadas de pesquisa independente e revisão cruzada com dois modelos. O dossiê local reúne bibliotecas por finalidade, 26 casos atribuídos e 13 propostas de abertura, com quadro, ponte e entrega. As correções de fonte e de direção criativa foram integradas. A pesquisa foi aceita pelos revisores como material textual para escolha; não houve inspeção audiovisual dos originais ou auditoria dos números nas plataformas. A seleção de uso permanece pendente. Sem geração de mídia, aplicação ao produto ou resultado de campanha.
+
+
+## Recorte editorial de hooks, 07/11/2026
+
+Registrada preferência inicial por segredo de bastidor, escalada entre cortes e ação visual absurda. A próxima curadoria deve aprofundar essas famílias. O feedback não aprova uma peça final nem altera o produto; produção e inspeção audiovisual continuam com estados próprios.
+
+
+## Modelagem de hooks por produto, 07/11/2026
+
+O módulo local passou a priorizar o banco de modelos já disponível. O processo preserva mecanismo e força da abertura e reescreve frase, situação e imagem para produto e público, registrando origem, adaptação, primeiro quadro, ponte e entrega no corpo. Sem brief, o trabalho fica no estudo dos modelos. Bibliotecas externas e propostas exploratórias permanecem como complemento. Ajuste documental local, sem geração de mídia, mudança no sistema publicado ou resultado de campanha.
+
+## Piloto visual em cozinha, 07/11/2026
+
+Produzidas quatro imagens estáticas para um roteiro GomaPet, com mesma apresentadora e ambiente, referências oficiais do produto e revisão visual da sequência. Prancha de cenas e falas preparada; avaliação editorial pendente. Experimento de pré-produção fora do sistema, sem geração de voz ou vídeo, publicação de campanha ou resultado comercial.
+
+## Revisão do produto no piloto de cozinha, 07/11/2026
+
+A primeira prancha recebeu reprovação editorial quanto à aparência da embalagem. Produzidas duas novas imagens com outro modelo, mantendo prompts e referências oficiais e sem sobreposição posterior do rótulo. Abertura e close inspecionados; avaliação de Yuri pendente. Experimento de imagens estáticas, sem mudança no sistema, voz, vídeo ou campanha.
+
+## Terceira rota de imagens do piloto de cozinha, 07/11/2026
+
+Produzidas abertura e detalhe com um terceiro modelo de imagem, mantendo prompts e referências oficiais e sem sobreposição posterior do rótulo. As amostras foram inspecionadas: integração de luz/contato plausível, com nome do produto parcialmente encoberto e tipografia variável. Avaliação editorial pendente; sem escolha permanente de fornecedor, vídeo ou publicação.
+
+## Continuação do piloto de cozinha, 07/11/2026
+
+Yuri aprovou a direção visual do terceiro modelo. Completadas as quatro cenas estáticas, uma narração contínua e uma abertura animada com voz consistente. A abertura passou por conferência técnica e audiovisual, com pequenos pontos de rigidez e tipografia ainda presentes. Avaliação editorial da nova mídia e animação das demais cenas pendentes. Experimento fora do produto, sem campanha ou resultado de desempenho.
+
+## Vídeo completo de cozinha, 07/11/2026
+
+Após aprovação da abertura por Yuri, concluída a peça de 30,6 segundos com quatro tomadas, voz consistente, legendas e nomes dos ingredientes no close. A revisão corrigiu pronúncia e sobreposição de legendas; o fechamento usa narração sobre um close do produto. Arquivos com e sem textos preparados para avaliação editorial final. Experimento fora do sistema, sem publicação de campanha, integração ao produto ou resultado de desempenho.
+
+A pedido de Yuri, preparada uma versão do vídeo de cozinha em 1,2x, com 25,5 segundos, mantendo o tom da voz e ajustando os tempos das legendas. Preferência aplicada a esta peça; sem preset global ou publicação.
+
+Yuri pediu em seguida uma versão do mesmo vídeo em 1,5x: 20,4 segundos, produzida a partir do original, com tom da voz preservado e legendas ajustadas. Sem preset global ou publicação.
+
+## Novo padrão de personagem e cena, 10/11/2026
+
+Uma personagem gerada a partir de um documento de prompts de retrato foi testada em cinco cenas UGC (cozinha, carro, mercado, parque e banheiro), com retrato e meio corpo como referência e conferência automática de rosto. As cinco passaram; os planos de longe só passaram com o rosto voltado para quem vê. Yuri aprovou o resultado, e o estúdio local passou a usar esse retrato, esse meio corpo e esse prompt de cena como padrão, com as versões anteriores guardadas. Mudança documental no estúdio local, sem alteração do Creator Studio, publicação de campanha ou resultado de desempenho.

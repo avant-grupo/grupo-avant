@@ -10,7 +10,7 @@ Recorte documentado em 2026-11-05. Estados resumem os registros existentes; esta
 | [Produção de vídeo](producao-de-video.md) | Esteira existente; entregas com revisão própria. |
 | [Conteúdo e marca pessoal do Igor](conteudo-igor.md) | Estratégia e ferramentas em evolução. |
 | [Evolução do BI GomaPet](dashboard-bi.md) | Produto publicado; integrações e conciliação em acompanhamento. |
-| [Dashboard modular](dashboard-modular.md) | Incremento publicado em 2026-11-03; primeiro uso real a confirmar. |
+| [Dashboard modular](dashboard-modular.md) | Fonte financeira e gráficos publicados em 2026-11-10; primeiro uso real a confirmar. |
 | [Evolução da Operação X1](operacao-x1.md) | Painel publicado; frentes recentes em acompanhamento. |
 | [Checkout próprio](checkout-proprio.md) | Proposta condicionada à viabilidade. |
 | [GomaPet Europa](gomapet-europa.md) | Pesquisa inicial concluída; contatos e cotações pendentes no registro. |

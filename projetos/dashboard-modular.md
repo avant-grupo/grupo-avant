@@ -1,6 +1,6 @@
 # Dashboard modular
 
-Contexto preparado em 2026-11-05.
+Contexto preparado em 2026-11-05; atualizado em 2026-11-10.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Permitir métricas versionadas e páginas configuráveis, com consulta e assist�
 
 ## Estado documentado
 
-Incremento publicado em 2026-11-03; primeiro uso real a confirmar.
+Incremento publicado em 2026-11-03. Em 2026-11-10 foram publicados a fonte financeira do catálogo (mesmo cálculo da DRE), gráficos por dia, semana ou mês nas páginas e período de até 366 dias. Primeiro uso real a confirmar.
 
 ## Próxima ação e dependências
 

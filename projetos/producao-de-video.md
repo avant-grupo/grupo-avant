@@ -1,6 +1,6 @@
 # Produção de vídeo
 
-Contexto preparado em 2026-11-05.
+Contexto atualizado em 2026-11-06.
 
 ## Objetivo
 
@@ -9,6 +9,8 @@ Acompanhar roteiro, gravação, edição, revisão e publicação sem perder a r
 ## Estado documentado
 
 Esteira existente; entregas com revisão própria.
+
+Em 06/11, uma ferramenta auxiliar de análise de referências foi configurada localmente com Gemini e validada em uma amostra pública, com dez planos e análise do vídeo completo. Ainda sem integração ao Creator Studio, avaliação de uma peça da operação ou medição de precisão geral.
 
 ## Próxima ação e dependências
 

@@ -16,6 +16,8 @@ Produção é uma capacidade própria do Studio. A integração com a Central é
 
 Em 05/11/2026, o modo UGC Resposta direta foi publicado, com catálogo de copy e escolha separada dos modelos de B-roll e avatar. Um lote de quatro vídeos GomaPet exercitou versões narradas e mistas com fala para a câmera. Outros incrementos locais e fases planejadas continuam descritos nos projetos; a verificação técnica não comprova resultado de campanha.
 
+Em 06/11, a regra de direção de gestos UGC16 foi refinada e validada localmente, orientando função do objeto e checagem da pose antes da animação. Publicação pendente; [estado e aplicação na geração UGC](../projetos/geracao-ugc.md).
+
 ## Código e projetos
 
 [Repositório do produto](https://github.com/avant-grupo/creator-studio).
