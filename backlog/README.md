@@ -82,7 +82,7 @@ Estas entradas agrupam várias entregas e precisam de desdobramento.
 |---|---|---|---|
 | BL-064 | Evoluções recentes da X1 | Frente ampla; dividir entregas | X1 e integrações |
 | BL-065 | Conciliação financeira e integrações externas | Frente ampla; dividir dependências | BI GomaPet e operação |
-| BL-066 | Fidelidade e novas capacidades UGC | Frente ativa; conferir incrementos | Creator Studio |
+| BL-066 | Fidelidade e novas capacidades UGC | Resposta direta publicada e piloto aprovado por Yuri em 05/11; revisão de fala, visual e edição identificada em 06/11, sem nova implementação | Creator Studio |
 | BL-067 | Pedido Pix com validação e retorno ao atendimento | Frente adiada; decidir retomada | A definir |
 | BL-068 | Contatos e cotações para GomaPet Europa | Operação e decisão comercial | GomaPet Europa |
 | BL-069 | Adoção operacional do gateway de integrações Meta | Configuração e uso | Infraestrutura e clientes |

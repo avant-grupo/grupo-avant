@@ -12,7 +12,7 @@ Produto publicado; integrações e conciliação em acompanhamento. Em 06/11, pu
 
 ## Próxima ação e dependências
 
-Revalidar integrações e pendências por origem dos dados. Conciliação com documentos externos depende da operação financeira.
+Revalidar integrações e pendências por origem dos dados. Uma referência visual foi recebida em 06/11 para futura revisão do dashboard; telas e direção ainda precisam ser definidas. Conciliação com documentos externos depende da operação financeira.
 
 ## Relações
 

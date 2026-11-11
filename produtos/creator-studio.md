@@ -14,7 +14,7 @@ Produção é uma capacidade própria do Studio. A integração com a Central é
 
 ## Estado resumido em 2026-11-05
 
-Evolução ativa registrada até 2026-11-05. Capacidades publicadas coexistem com incrementos locais e fases planejadas; consultar os projetos antes de assumir disponibilidade.
+Em 05/11/2026, o modo UGC Resposta direta foi publicado, com catálogo de copy e escolha separada dos modelos de B-roll e avatar. Um lote de quatro vídeos GomaPet exercitou versões narradas e mistas com fala para a câmera. Outros incrementos locais e fases planejadas continuam descritos nos projetos; a verificação técnica não comprova resultado de campanha.
 
 ## Código e projetos
 
