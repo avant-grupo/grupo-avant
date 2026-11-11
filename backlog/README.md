@@ -87,6 +87,19 @@ Estas entradas agrupam várias entregas e precisam de desdobramento.
 | BL-068 | Contatos e cotações para GomaPet Europa | Operação e decisão comercial | GomaPet Europa |
 | BL-069 | Adoção operacional do gateway de integrações Meta | Configuração e uso | Infraestrutura e clientes |
 
+## Issues abertas
+
+Em 2026-11-07, depois de uma revalidação leve no código, os itens abaixo viraram issues nos repositórios dos produtos. Os demais continuam em triagem.
+
+- BL-001: avant-bi #8
+- BL-019: avant-bi #9
+- BL-020: avant-bi #10
+- BL-023: avant-bi #11
+- BL-024: avant-bi #12
+- BL-053: central #11
+- BL-055: central #12
+- BL-056: central #13
+
 ## Próxima etapa
 
 Conferir o estado atual, procurar issues existentes e preparar critérios de aceite para os itens de implementação. A criação de issues e a definição de prioridades são uma etapa posterior. Seguir [o fluxo de demandas](../processos/demandas.md) e [o mapa de produtos](../produtos/README.md).
