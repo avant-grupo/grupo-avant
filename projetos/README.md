@@ -18,3 +18,4 @@ Recorte documentado em 2026-11-05. Estados resumem os registros existentes; esta
 | [Automações e Judite](automacoes-empresa.md) | Central publicada; novos fluxos em evolução. |
 | [Judite entre produtos](judite-entre-produtos.md) | Janela integrada publicada; capacidades variam por produto. |
 | [Infraestrutura dos produtos](infraestrutura.md) | Serviços em operação; manutenção contínua. |
+| Plataforma de processamento local de ativos digitais | 13/11/2026: bancada única para lotes mistos de mídia, com tratamentos combináveis e validação local aprovada. Conta, cotas, suporte e administração preservados; identidade comercial e integrações de produção pendentes. Produto sem publicação. |
