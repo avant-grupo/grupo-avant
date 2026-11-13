@@ -1,6 +1,30 @@
 # Evolução da Operação X1
 
-Contexto atualizado em 2026-11-08.
+Contexto atualizado em 2026-11-13.
+
+## Vínculo de três contas de anúncios, 13/11/2026
+
+Três contas de anúncios foram vinculadas ao atendimento da operação principal, com destino explícito de conversão e rotas existentes preservadas. Cadastro e três rotas ativas foram conferidos na API e por leitura independente. Também foi corrigida uma associação antiga de destino na conta já cadastrada, conferindo os anúncios atuais. A sincronização foi solicitada e aguarda a fila normal; novas entradas e conversões dependem da conclusão dessa leitura para validar o fluxo completo. A operação paralela permaneceu separada.
+
+## Entradas dos anúncios na operação paralela, 13/11/2026
+
+Publicado o cadastro das novas entradas de anúncios para selecionar a abertura e o atendimento correspondentes à peça. O inventário das duas contas e as verificações da regra publicada foram conferidos, preservando as receitas e os demais caminhos do fluxo. Ainda falta observar uma entrada real posterior. Sem mensagens de teste ou reprocessamento de contatos.
+
+## Resposta sobre o conteúdo adicional, 13/11/2026
+
+Publicada na operação principal uma orientação de atendimento para perguntas sobre o conteúdo adicional mantido em surpresa. O agente deve preservar o mistério e explicar a liberação após validar o pagamento, sem inventar conteúdo ou tratar ausência de compromisso como dívida. Configuração persistida e campos restantes preservados; verificações estáticas aprovadas. Ainda falta conferir a resposta numa conversa posterior à publicação.
+
+## Resposta após pagamento na operação paralela, 13/11/2026
+
+Publicada uma proteção para não acrescentar a chave de pagamento às respostas quando a compra já está paga. A cobrança de uma oferta adicional pendente continua disponível. Complementa o encerramento do atendimento anterior na aprovação do PDF. Doze cenários passaram no fluxo exportado, inclusive em cópia isolada; versão no ar conferida. Falta observar uma conversa posterior à publicação. Sem mensagens de teste ou pagamento simulado.
+
+## Respostas ao lembrete na operação paralela, 13/11/2026
+
+Publicado o aumento de 3 para 24 horas na espera por resposta ao lembrete da abertura, para atender quem responde depois de uma noite. Configuração no ar conferida, com texto e encaminhamento preservados. Esperas já vencidas não foram retomadas; a próxima verificação é uma resposta real após o prazo anterior e dentro do novo.
+
+## Transição após pagamento na operação paralela, 13/11/2026
+
+Publicada uma correção para encerrar o atendimento de IA anterior quando um comprovante em PDF é aprovado, antes de seguir ao pós-pagamento ou à oferta adicional. As rotas de recusa foram preservadas. A configuração publicada e as quatro rotas foram verificadas; o comportamento numa conversa real posterior ainda será observado. Sem simulação de pagamento nesta entrega.
 
 ## Objetivo
 
@@ -78,3 +102,76 @@ Atualização de 08/11, interface de campanhas: aprovada e implementada localmen
 ## Operação paralela automatizada, decisão de 10/11/2026
 
 Em reunião de 10/11, ficou decidido testar uma operação paralela com atendimento automatizado em outro número, com rastreamento próprio, para comparar o resultado com a operação de gestão manual. Novas variações de criativo e um upsell estão em preparação. Próxima ação: montar o funil e subir os primeiros anúncios. Nada publicado por esta decisão.
+
+## Processamento de leads, 12/11/2026
+
+Publicada uma correção no rastreador para reduzir o atraso entre a entrada e o envio do lead à Meta. O processamento evita revisões repetidas de pendências e lê um número limitado de entradas em paralelo. A fila anterior foi processada e os leads da operação paralela foram aceitos pela Meta, com testes de concorrência e deduplicação. Acompanhar o comportamento no próximo pico de tráfego; o aceite do evento e a atribuição no Gerenciador continuam sendo verificações distintas.
+
+## Biblioteca interna de referências, 12/11/2026
+
+Implementada uma biblioteca interna para consultar referências de criativos por país ou região, tema e origem, com busca em textos disponíveis, reprodução e download dos originais arquivados. A instalação local e o acesso entre computadores foram conferidos, assim como navegação em desktop e celular. A ampliação do acervo continua em andamento. Sem mudança no atendimento, publicação de campanhas ou resultado comercial medido.
+
+## Atendimento conforme o anúncio, 12/11/2026
+
+Na operação paralela, a abertura e o agente de IA do atendimento passaram a seguir o anúncio de origem: os anúncios com o especialista continuam com o atendimento do especialista, e os anúncios de indicação recebem um atendente que se apresenta como alguém que indica a receita. O áudio de abertura virou um só, neutro, para todos. Publicado no funil depois de testado numa cópia e no próprio funil; falta conferir com leads reais de cada tipo de anúncio.
+
+## Respostas curtas ao preço, 12/11/2026
+
+Corrigida na operação paralela a interpretação de aceites curtos com erro de digitação. O fluxo reconhece os aceites completos antes da IA e interpreta as demais respostas com a pergunta enviada. Recusa e dificuldade de pagamento mantêm seus caminhos próprios, sem pergunta adicional ao cliente. Publicado após testes pelo WhatsApp e avaliação de respostas preservadas; a configuração publicada foi relida. Resultado comercial não medido nesta entrega.
+
+## Revisão dos storyboards, 12/11/2026
+
+O lote de 20 storyboards da operação paralela recebeu revisão dos ganchos, textos na tela e duração das cenas. Os arquivos foram validados e os PDFs atualizados para avaliação, com as imagens existentes preservadas. Próxima etapa: aprovar a revisão e concluir ajustes visuais antes de produzir os vídeos. Sem publicação de campanha nesta entrega.
+
+## Piloto de vídeo, 12/11/2026 à noite
+
+A produção dos storyboards foi autorizada em paralelo à criação de novos formatos. Seis cenas do primeiro piloto foram geradas no Google Flow e montadas em uma prévia, com conferência local das falas e dos quadros. A chamada final foi recusada pela plataforma e ainda falta para concluir o vídeo. Próxima etapa: resolver a chamada e avaliar o piloto antes da expansão. Sem publicação de anúncio ou resultado comercial medido.
+
+
+Atualização de 12/11 à noite: a produção passa a ser paralela, com um agente responsável por cada roteiro e revisão central das entregas. Três roteiros estão atribuídos à primeira rodada. Atribuição não representa geração concluída nem publicação de campanha.
+
+
+Complemento de 12/11: os vídeos passam a receber trilha instrumental e transições breves na edição. A entrega será progressiva por peça completa e conferida, identificada pela tag; a associação de anúncios ao atendimento permanece separada. Teste de acabamento concluído em prévia, sem publicação de campanha.
+
+
+Resultado da rodada paralela: três bases parciais geradas e conferidas, com lacunas por recusas da plataforma e uma falha de duração em parte dos clipes. O acabamento foi testado em prévia; nenhum vídeo completo foi entregue para campanha. Próxima etapa: resolver as cenas faltantes antes da entrega progressiva.
+
+Atualização de 13/11: prévia revisada em velocidade de 1,2x, preservando a voz e mantendo a música no ritmo original. Ajuste conferido localmente e adotado para as próximas montagens. A chamada final continua pendente; sem entrega para campanha.
+
+Atualização de 13/11: três variantes de vídeo receberam chamada visual na edição, preservando os takes aproveitáveis. Uma passou na conferência final automática; duas aguardam revisão complementar. A revisão e o envio ficaram centralizados no supervisor. Sem publicação de campanha nesta entrega.
+
+Atualização de 13/11 às00h44: primeiro piloto entregue ao Igor pelo supervisor, como documento, após conferência final. As próximas peças seguem o mesmo pacote de revisão e envio centralizado. Sem publicação de campanha comprovada.
+
+## Ritmo e continuidade dos criativos, 13/11/2026
+
+Após a entrega inicial de quatro variantes, duas peças voltaram para ajuste de montagem. A revisão exige imagens em movimento, insertos curtos e correspondência entre quem aparece falando e o narrador. As versões anteriores ficam preservadas; novas versões passam por conferência de fala, texto e movimento e por revisão do supervisor antes do reenvio. A diretriz foi incorporada ao lote seguinte. Sem publicação de campanha comprovada nesta etapa.
+
+As duas versões corrigidas concluíram a conferência técnica e aguardam revisão e reenvio centralizados no supervisor. A correção aproveitou a filmagem existente, preservou a fala e não gerou novas cenas. O aceite do reenvio e o resultado em campanha ainda não foram verificados.
+
+Atualização de13/11: as duas correções de vídeo foram reenviadas e tiveram entrega confirmada pelo supervisor. A produção dos demais roteiros foi retomada; o próximo vídeo e os planos seguintes estão em preparação enquanto a plataforma de geração mantém uma restrição temporária. Sem publicação de campanha comprovada.
+
+Atualização de13/11: parte da nova leva segue pendente por uma restrição externa na plataforma de geração. O material existente foi preservado e a edição/conferência local pode continuar; não há confirmação de conclusão dessas peças.
+
+
+Atualização de 13/11, consolidação da produção: uma nova peça concluiu a conferência técnica e aguarda revisão e envio pelo supervisor. A leva seguinte, de 15 roteiros, permanece incompleta sob restrição da plataforma; material aproveitável foi preservado. Novas gerações seguem suspensas. Sem publicação de campanha comprovada.
+
+Atualização de 13/11, retomada da supervisão: treze vídeos finais foram revisados e entregues. A frente de formatos concluiu 20 storyboards e 46 imagens, ainda sujeitos à seleção editorial. Os 15 roteiros seguintes ficaram suspensos por restrição da plataforma e recusas de conteúdo; a retomada sequencial será conferida antes de prosseguir. Arquivos e evidências preservados. Sem publicação de campanha comprovada.
+
+Atualização de 13/11, revisão de acabamento: os treze vídeos entregues voltaram para ajuste local de câmera e transições, preservando trilha e arte; duas peças também terão a narração corrigida. A restrição da plataforma reapareceu mesmo na operação sequencial, e as quinze peças seguintes continuam suspensas. Materiais anteriores preservados, sem nova campanha publicada.
+
+Conclusão local de 13/11: os treze arquivos corrigidos foram revisados e arquivados. O reenvio permanece pendente de coordenação do canal de entrega; as versões anteriores estão preservadas. Os quinze roteiros seguintes continuam suspensos pela plataforma e por decisões editoriais. Sem publicação de campanha nesta etapa.
+
+Revisão complementar de 13/11: oito peças voltaram para redução dos títulos de abertura, preservando texto, duração e áudio. As versões anteriores continuam preservadas; o reenvio do conjunto aguarda revisão final. Ajuste local, sem novas cenas geradas ou campanha publicada.
+
+Conclusão da revisão dos títulos em 13/11: oito versões atualizadas foram conferidas e substituídas na fila, preservando duração e áudio. O conjunto aguarda revisão final antes do reenvio; arquivos anteriores preservados, sem geração de novas cenas ou publicação de campanha.
+
+Reabertura complementar de 13/11: cinco finais voltaram para ajuste local de trechos repetidos e reenquadramentos, que permaneceram após a correção anterior. O envio dessas versões fica retido até novos arquivos verificados e revisão final. As outras oito peças seguem preservadas; sem nova geração de cenas ou publicação de campanha.
+
+Revisão de abertura em 13/11: oito peças passaram a manter apenas identificação e emojis, preservando áudio e duração. Novas versões conferidas e aguardando revisão final antes do reenvio; as cinco peças em correção de montagem continuam retidas. Arquivos anteriores preservados, sem novas cenas ou campanha publicada.
+
+
+## Proteção da abertura do atendimento, 13/11/2026
+
+Publicada no atendimento da X1 Yuri uma proteção para impedir que respostas seguidas repitam a mesma etapa inicial. Resposta, lembrete e reação usam a mesma marca de etapa. A configuração publicada e nove cenários sequenciais foram conferidos. A verificação em conversa posterior permanece pendente; execuções rigorosamente simultâneas ainda dependem da garantia de concorrência da plataforma.
+
+Atualização de cobertura em 13/11: uma peça teve autorizada a produção sequencial de cenas adicionais para corrigir a falta de variedade na montagem; a primeira cena foi informada como concluída. Quatro candidatas locais aguardam aprovação editorial. As demais restrições de produção e a retenção do envio continuam; as oito peças da outra frente foram preservadas, sem publicação de campanha.
