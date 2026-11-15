@@ -245,3 +245,9 @@ Atualização de 14/11, oralidade: definidos quatro perfis compartilhados de fal
 ## Padronização dos headers, decisão de 14/11/2026
 
 Aprovado um padrão visual para os headers dos próximos vídeos e um catálogo inicial de pares de texto, escolhidos conforme a história de cada peça. O contrato de parametrização e as conferências foram documentados; a integração aos dois caminhos de montagem ainda está pendente. A decisão não comprova aplicação automática, refação de vídeos ou publicação de campanha.
+
+## Organização das levas de criativos, 14/11/2026
+
+Encerrada a entrega de seis criativos corrigidos com depoimentos de mulheres. Duas variantes com hologramas permanecem descartadas. O lote original de vinte tem quinze peças restantes: quatro com montagens para avaliação e onze sem vídeo final; as cinco peças já entregues mantêm revisões posteriores separadas. Há também um backlog independente de vinte modelos com roteiros e storyboards prontos, dividido em sete preparos na cozinha, sete falas na rua e seis podcasts, sem produção de vídeo nesta etapa.
+
+Próximas ações: avaliar as candidatas, resolver os bloqueios de produção e selecionar os modelos do backlog antes da etapa de vídeo. A organização documental não representa nova geração, envio de mídia ou publicação de campanha.
