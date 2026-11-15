@@ -240,7 +240,7 @@ Após autorização para corrigir uma peça primeiro, o porteiro recebeu uma nov
 Atualização de14/11: retirado um começo falso da fala na mesma peça, com áudio e imagem cortados juntos. A leitura literal foi integrada ao caminho de render e conferida antes e depois da edição; verificações técnicas passaram. O ritmo e a montagem receberam aprovação editorial em 14/11. Depois, foi escolhido e gerado um novo fechamento pelo próprio personagem, explicando que valor e entrega serão tratados no atendimento. A versão seguinte preserva o corpo aprovado e passou nas conferências técnicas; o novo CTA aguarda revisão editorial. As demais peças seguem preservadas, sem envio ao cliente ou publicação de campanha.
 
 
-Atualização de 14/11, oralidade: definidos quatro perfis compartilhados de fala para variar entre os vídeos. O texto do piloto passou por revisões para um registro de conversa, com esclarecimentos da história e retirada de uma urgência sem contexto. A chamada comercial continua em ajuste textual. Não houve nova geração, mudança de mídia, envio ao cliente ou publicação de campanha nesta etapa.
+Atualização de 14/11, oralidade: definidos quatro perfis compartilhados de fala para variar entre os vídeos. O texto do piloto passou por revisões para um registro de conversa, com esclarecimentos da história e retirada de uma urgência sem contexto. Depois da aprovação do texto, as falas revisadas do piloto foram geradas e montadas, mantendo a menção ao valor na chamada. Conferências de texto, continuidade e sincronização passaram; a nova interpretação aguarda revisão editorial. Anteriores preservadas, sem envio ao cliente ou publicação de campanha.
 
 ## Padronização dos headers, decisão de 14/11/2026
 
