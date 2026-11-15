@@ -1,6 +1,6 @@
 # Evolução da Operação X1
 
-Contexto atualizado em 2026-11-13.
+Contexto atualizado em 2026-11-14.
 
 ## Vínculo de três contas de anúncios, 13/11/2026
 
@@ -175,3 +175,7 @@ Revisão de abertura em 13/11: oito peças passaram a manter apenas identificaç
 Publicada no atendimento da X1 Yuri uma proteção para impedir que respostas seguidas repitam a mesma etapa inicial. Resposta, lembrete e reação usam a mesma marca de etapa. A configuração publicada e nove cenários sequenciais foram conferidos. A verificação em conversa posterior permanece pendente; execuções rigorosamente simultâneas ainda dependem da garantia de concorrência da plataforma.
 
 Atualização de cobertura em 13/11: uma peça teve autorizada a produção sequencial de cenas adicionais para corrigir a falta de variedade na montagem; a primeira cena foi informada como concluída. Quatro candidatas locais aguardam aprovação editorial. As demais restrições de produção e a retenção do envio continuam; as oito peças da outra frente foram preservadas, sem publicação de campanha.
+
+## Padronização dos headers, decisão de 14/11/2026
+
+Aprovado um padrão visual para os headers dos próximos vídeos e um catálogo inicial de pares de texto, escolhidos conforme a história de cada peça. O contrato de parametrização e as conferências foram documentados; a integração aos dois caminhos de montagem ainda está pendente. A decisão não comprova aplicação automática, refação de vídeos ou publicação de campanha.
