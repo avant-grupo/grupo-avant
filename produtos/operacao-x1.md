@@ -36,8 +36,31 @@ Ainda falta ligar o número à conta de anúncio, à página e ao pixel em que o
 
 No mesmo dia, o painel da X1 ganhou a interface do BI GomaPet: menu lateral, filtros no cabeçalho, cards com comparação ao período anterior e configurações em painel à direita. Números, regras e acessos não mudaram. O código foi para o repositório dos painéis, o [avant-bi](https://github.com/avant-grupo/avant-bi), junto com o BI.
 
+Também em 11/11, o faturamento do painel passou a incluir as vendas sem atribuição: pagamentos que o atendimento marcou como pagos e que o rastreamento não enviou à Meta por não encontrar o lead de origem. Elas aparecem separadas do que foi enviado à Meta e ficam fora das visões por conta de anúncio, criativo e anúncio. Antes, essas vendas não entravam no total.
+
+A investigação mostrou que a maior parte desses casos no dia veio de atraso no processamento das entradas pelo rastreamento: a compra era avaliada antes de o lead existir. As compras do dia com origem comprovada foram reprocessadas e enviadas com o horário original. A correção que reavalia a compra sozinha quando o lead aparece foi publicada no rastreamento no fim da tarde do mesmo dia e passou a recuperar essas compras sem intervenção. O atraso no processamento das entradas continua em aberto: enquanto ele durar, o lead aparece depois e a compra entra como sem atribuição até ser reavaliada.
+
+## Atualização de 2026-11-12
+
+A X1 passou a manter uma base própria de clientes, separada do ROI Chat e do rastreamento: contatos com etiquetas e campos, etapas do funil, conversas, comprovantes e demais arquivos recebidos, além de uma cópia dos leads, entradas, eventos e avisos de compra do rastreamento. O objetivo é não perder histórico quando o ROI Chat apaga contatos ao chegar no limite do bot, nem quando a conversa sai da janela de um mês da API. A leitura do ROI Chat ficou incremental, porque a cota da API não comportava reler todos os contatos a cada 10 minutos, e o histórico das semanas anteriores foi carregado a partir das coletas já feitas. As conversas restantes entram aos poucos, dentro da cota. Nenhum fluxo do ROI Chat foi alterado. [Dashboards #35 a #41](https://github.com/avant-grupo/avant-bi/pull/35).
+
 ## Código e projetos
 
 [Repositório do produto](https://github.com/avant-grupo/avant-bi), em `apps/x1`. O repositório `operacao-x1` foi arquivado em 11/11/2026.
 
 - [operacao x1](../projetos/operacao-x1.md)
+
+
+## Resumos por operação publicados em 11/11/2026
+
+As instalações X1 e X1 Yuri oferecem à Central resultados de faixas exatas de pagamento e gasto horário real da Meta, com filtros de conta, campanha e anúncio. Resultado após anúncios é faturamento menos mídia. Fonte indisponível mantém gasto e resultado indisponíveis com aviso. O editor usa busca para o histórico de campanhas e anúncios. A ativação do piloto e os acessos da nova operação permanecem para configuração. [Dashboards #33](https://github.com/avant-grupo/avant-bi/pull/33) e [#34](https://github.com/avant-grupo/avant-bi/pull/34).
+
+
+Atualização de 14/11/2026: corrigida a dependência de leitura de metadados ao montar
+resumos de gasto e ROAS. As duas instalações usam cadastro de fuso/moeda e reutilizam
+somente consultas completas e recentes da mesma janela. Consulta real pela Central
+verificada sem avisos; acompanhamento do próximo envio automático ainda pendente.
+
+## Entrada única publicada, 14/11/2026
+
+As duas instalações usam automaticamente a Central na entrada direta, com provisionamento dos novos usuários autorizados e preservação das permissões existentes. Publicação concluída e conferida online; a otimização anterior foi preservada no código versionado. [PR #44](https://github.com/avant-grupo/avant-bi/pull/44).

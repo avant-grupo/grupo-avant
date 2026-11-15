@@ -27,3 +27,7 @@ Em 06/11, a regra de direção de gestos UGC16 foi refinada e validada localment
 - [central conteudo criadores](../projetos/central-conteudo-criadores.md)
 - [producao de video](../projetos/producao-de-video.md)
 - [conteudo igor](../projetos/conteudo-igor.md)
+
+## Entrada única publicada, 14/11/2026
+
+A entrada direta usa automaticamente a Central, mantendo empresas e perfis. Aplicativo e backend publicados e conferidos online pelo [PR #32](https://github.com/avant-grupo/creator-studio/pull/32). [Estado da frente](../projetos/automacoes-empresa.md).

@@ -1,12 +1,18 @@
 # Geração de conteúdo UGC
 
-Contexto atualizado em 2026-11-10.
+Contexto atualizado em 2026-11-13.
 
 ## Objetivo
 
 Conectar referência, ideia, copy, imagens, clipes e montagem de criativos.
 
 ## Estado documentado
+
+Em 13/11/2026, a revisão visual dos criativos X1 foi redirecionada para correções pontuais de ordem, repetição e movimento artificial, preservando a maioria do material já produzido. A comparação com o lote anterior confirmou a diferença entre corte de edição e nova geração. Uma candidata recebeu ajuste local de imagens com áudio e duração preservados; a aprovação editorial e as demais correções continuam pendentes. Sem mudança no Creator Studio ou publicação de campanha.
+
+Em 11/11/2026, foram concluídos três anúncios GomaPet para seleção de criadores com experiência na TikTok Shop. A produção usou roteiros revisados, apresentadora virtual, cenas de produto e cachorro, voz, música, ambiente e legendas. Os vídeos passaram por conferência técnica e revisão visual; o pacote foi preparado para encaminhamento à Manu. Não houve publicação de campanha, alteração do Creator Studio nem resultado de desempenho medido. Na revisão posterior, o plano do produto foi corrigido nos três vídeos para preservar movimento, mantendo o áudio; o pacote atualizado é a versão de encaminhamento.
+
+Em 11/11/2026, foi preparado um pacote do método UGC Criativos e das ferramentas locais para a Manu testar no Claude Code, com brief, instruções e um exemplo de montagem. A instalação em ambiente novo e a montagem do exemplo foram verificadas. O teste no computador da destinatária permanece pendente; não houve integração dessas ferramentas ao Creator Studio.
 
 Em 08/11/2026, foi aprovada a direção técnica de usar Grok Imagine Video 1.5 Lite em 720p para geração, com voz final tratada no ElevenLabs e ajuste de velocidade de 1,2× ou 1,5× conforme a peça. O acabamento deve preservar tom, sincronismo e legendas. A decisão de modelo não comprova que essa configuração já foi aplicada ao serviço publicado.
 

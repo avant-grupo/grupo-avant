@@ -2,9 +2,17 @@
 
 Contexto atualizado em 2026-11-14.
 
+## Retorno por anúncio novo, 14/11/2026
+
+Publicada na operação paralela uma correção para quem já recebeu a oferta e volta por outro anúncio: a entrada do fluxo limpa a marca da etapa anterior, e a pessoa recebe a continuação em vez de ficar sem resposta. A proteção contra envio repetido na mesma passagem foi preservada. Os nove cenários do fluxo exportado passaram e um teste real confirmou a entrega. Falta observar um retorno orgânico.
+
+## Recuperação de respostas tardias, 13/11/2026
+
+Publicada na operação paralela a retomada automática de quem responde depois de vencer a espera da abertura. A regra atua somente na etapa inicial, preserva contatos que já avançaram ou têm pagamento registrado e ignora anexos sem resposta textual. Complementa a ampliação anterior para 24 horas. O caso de teste reproduziu a parada e depois confirmou a continuação até a oferta; respostas dentro do prazo e prevenção de repetição também foram verificadas. Configuração principal preservada e teste temporário removido.
+
 ## Vínculo de três contas de anúncios, 13/11/2026
 
-Três contas de anúncios foram vinculadas ao atendimento da operação principal, com destino explícito de conversão e rotas existentes preservadas. Cadastro e três rotas ativas foram conferidos na API e por leitura independente. Também foi corrigida uma associação antiga de destino na conta já cadastrada, conferindo os anúncios atuais. A sincronização foi solicitada e aguarda a fila normal; novas entradas e conversões dependem da conclusão dessa leitura para validar o fluxo completo. A operação paralela permaneceu separada.
+Três contas de anúncios foram vinculadas ao atendimento da operação principal, com destino explícito de conversão e rotas existentes preservadas. Cadastro e três rotas ativas foram conferidos na API e por leitura independente. Também foi corrigida uma associação antiga de destino na conta já cadastrada, conferindo os anúncios atuais. Atualização de 13/11 às 16h51: sincronização concluída, entradas antigas e conversões pendentes recuperadas e aceitas pela Meta, com horários/valores preservados e sem repetição dos eventos anteriores. Novas entradas naturais foram conferidas nas três contas. O lote foi concluído; a rotina de reavaliação após sincronização exige uma correção para evitar novas paradas em recuperações futuras. A operação paralela permaneceu separada.
 
 ## Entradas dos anúncios na operação paralela, 13/11/2026
 
@@ -26,11 +34,30 @@ Publicado o aumento de 3 para 24 horas na espera por resposta ao lembrete da abe
 
 Publicada uma correção para encerrar o atendimento de IA anterior quando um comprovante em PDF é aprovado, antes de seguir ao pós-pagamento ou à oferta adicional. As rotas de recusa foram preservadas. A configuração publicada e as quatro rotas foram verificadas; o comportamento numa conversa real posterior ainda será observado. Sem simulação de pagamento nesta entrega.
 
+## Atendimento revisado e registro de recusa publicados, 14/11/2026
+
+O atendimento por IA da X1 Yuri passou a usar instruções mais curtas, voltadas a responder diretamente às dúvidas, depois de testes com um recorte de casos reais e revisão por três modelos. A IA agora registra quando a pessoa recusa ou informa um prazo, e as cobranças automáticas do funil principal conferem esse registro antes de enviar. A mensagem de abertura e os dois recontatos também foram ajustados. Provas feitas em contato de teste. Ficaram fora desta etapa o atendimento da oferta complementar e os fluxos de outras cópias; respostas na abertura continuam seguindo o funil. Próxima ação: revisar a oferta complementar e acompanhar a qualidade do número.
+
+## Registro de recusa e prazo em teste isolado, 14/11/2026
+
+Foi montado um ambiente de teste separado para registrar recusa ou prazo e conferir esse estado antes de uma cobrança. A guarda foi executada com campo vazio e com recusa, com entrega das duas mensagens de teste. Os agentes e fluxos do atendimento atual foram preservados. Qualquer prazo fica suspenso, sem retomada automática, e o atendimento desta etapa usa somente Pix. A chamada das funções pela IA ainda aguarda teste integrado; as cobranças atuais não foram migradas para essa política.
+
+## Análise qualitativa da X1 Yuri, 14/11/2026
+
+Concluída a leitura do recorte de atendimentos da operação atual, com classificação de dúvidas, objeções e problemas recorrentes e comparação descritiva dos caminhos. As propostas de melhoria estão preparadas para decisão; não houve alteração do atendimento por esta análise. Casos individuais, evidências e relatório completo permanecem no ambiente privado.
+
+## Conta adicional na X1 Yuri, 14/11/2026
+
+Uma terceira conta de anúncios foi vinculada ao rastreamento da X1 Yuri, preservando as duas anteriores. Quatro anúncios receberam o cadastro de origem no funil publicado; releitura e 65 verificações confirmaram a alteração restrita ao mapa de anúncios. A sincronização do catálogo foi solicitada e ainda aguarda a fila normal. A configuração não comprova a chegada de uma entrada ou compra; essa conferência permanece pendente. Campanhas e lances foram preservados.
+
+
 ## Objetivo
 
 Melhorar resultado por oferta, vendas, funil e criativos da operação de atendimento.
 
 ## Estado documentado
+
+Em 11/11, foi publicada uma correção no gateway de IA para respeitar o prazo de resposta do atendimento e recuperar chamadas seguras que ficam sem resposta. Testes automatizados, simulação de falhas com o código publicado e primeiras chamadas reais passaram. A medição por uma janela maior e a homologação completa das conversas continuam pendentes.
 
 Painel publicado; frentes recentes em acompanhamento. Em 06/11, foi publicado um ajuste de continuidade diante de falha técnica na automação de atendimento. Melhorias de estabilidade do gateway de IA foram publicadas após os testes locais e conferidas por cenários controlados na API de produção. A homologação completa da conversa e a medição comparável do atendimento continuam pendentes. Também foi retomado o levantamento do canal WhatsApp com inventário operacional; a causa das diferenças entre o estado exibido da conta e o atendimento relatado segue sem confirmação.
 
@@ -175,6 +202,45 @@ Revisão de abertura em 13/11: oito peças passaram a manter apenas identificaç
 Publicada no atendimento da X1 Yuri uma proteção para impedir que respostas seguidas repitam a mesma etapa inicial. Resposta, lembrete e reação usam a mesma marca de etapa. A configuração publicada e nove cenários sequenciais foram conferidos. A verificação em conversa posterior permanece pendente; execuções rigorosamente simultâneas ainda dependem da garantia de concorrência da plataforma.
 
 Atualização de cobertura em 13/11: uma peça teve autorizada a produção sequencial de cenas adicionais para corrigir a falta de variedade na montagem; a primeira cena foi informada como concluída. Quatro candidatas locais aguardam aprovação editorial. As demais restrições de produção e a retenção do envio continuam; as oito peças da outra frente foram preservadas, sem publicação de campanha.
+
+## Planejamento de testes, 11/11/2026
+
+Discutida a comparação entre criativos que levam ao especialista e criativos com personagem, mantendo coerência entre chamada e atendimento. Também foi proposta a comparação entre mensagem geral e mensagens específicas por origem do anúncio. Próxima ação: definir execução e critérios de medição; este registro não comprova implantação dos testes nem resultado.
+
+
+## Marcação por Pix, implementação local de 11/11/2026
+
+O rastreador recebeu uma correção local para distinguir pagamentos Pix do mesmo valor pelo identificador bancário e impedir a duplicação do mesmo Pix entre atendimentos. Testes selecionados e integração com banco descartável passaram. O leitor determinístico e as alterações de conteúdo do fluxo também foram preparados, com revisão manual para evidência incompleta. A ligação dos campos e da fila, a homologação no atendimento e a publicação operacional continuam pendentes. Nenhuma recuperação histórica ou mudança no total do painel foi executada nesta etapa; casos financeiros permanecem no ambiente privado.
+
+
+## Conferência de pagamentos publicada, 11/11/2026
+
+O painel X1 ganhou uma tela de consulta dos avisos de pagamento que precisam de acompanhamento, com filtros e detalhe de motivo, etapa e referências para investigação. Avisos recuperados deixam a lista automaticamente. A consulta respeita o perfil e o workspace; não aprova pagamentos nem reenvia eventos. Publicação e verificações de serviço, banco em isolamento e interface no computador/celular concluídas. Próxima ação: conferir pendências e ampliar a captura anterior ao aviso, a prevenção de falhas e a resolução manual auditada. Conciliação bancária completa ainda não foi entregue nesta etapa.
+
+
+## Recuperação automática do rastreamento, implementação local de 14/11/2026
+
+Foi concluída e verificada localmente a retomada das entradas antigas que aguardavam o catálogo de anúncios, com lotes limitados, intervalo entre tentativas e proteção contra duplicação. A conferência periódica separa entradas, compras, pendências e confirmações de recebimento da Meta, sem atribuir conta quando a origem é desconhecida. Testes com PostgreSQL descartável e respostas Meta sintéticas passaram, incluindo preservação de valor, horário e destino e retomada depois de interrupção.
+
+A correção ainda não foi publicada. Próxima ação: autorização de publicação, aplicação dos índices aditivos e conferência do ciclo real. Não houve reprocessamento em produção nem mudança de totais nesta entrega.
+
+## Revisão do porta-voz dos criativos, 14/11/2026
+
+Definida a divisão entre depoimento e oferta: mulher ou homem podem contar a experiência do casal; o homem que detém a receita faz a chamada final, coerente com o atendimento. As versões afetadas foram retidas e a correção pontual foi preparada, preservando os depoimentos. Uma checagem local passou a validar o porta-voz. Refação dos vídeos e revisão editorial continuam pendentes; não houve novo envio ou publicação de campanha.
+
+
+## Montagem dos criativos parciais, 14/11/2026
+
+Quatro peças que já tinham cenas foram montadas em versões curtas, com chamada final pelo homem da própria peça. A conferência de fala, movimento e quadros foi concluída; arquivos e versões anteriores foram preservados. As candidatas aguardam escuta editorial e aceite. Não houve envio ao cliente ou publicação de campanha por esta etapa.
+
+Revisão posterior da montagem identificou retornos repetitivos a cenários e imagens fora do bloco de fala. A candidata do porteiro foi rejeitada e preservada. Os dez primeiros vídeos foram decupados para orientar a correção; as demais candidatas continuam em revisão. Não houve nova geração, remontagem ou envio por esse diagnóstico.
+
+Após autorização para corrigir uma peça primeiro, o porteiro recebeu uma nova montagem por blocos da história, com fala e imagem vinculadas e correção do tempo do áudio. As conferências técnicas passaram e a versão aguarda avaliação antes de estender o ajuste às demais. Não houve nova geração ou envio ao cliente; anteriores preservadas.
+
+Atualização de14/11: retirado um começo falso da fala na mesma peça, com áudio e imagem cortados juntos. A leitura literal foi integrada ao caminho de render e conferida antes e depois da edição; verificações técnicas passaram. O ritmo e a montagem receberam aprovação editorial em 14/11. Depois, foi escolhido e gerado um novo fechamento pelo próprio personagem, explicando que valor e entrega serão tratados no atendimento. A versão seguinte preserva o corpo aprovado e passou nas conferências técnicas; o novo CTA aguarda revisão editorial. As demais peças seguem preservadas, sem envio ao cliente ou publicação de campanha.
+
+
+Atualização de 14/11, oralidade: definidos quatro perfis compartilhados de fala para variar entre os vídeos. O texto do piloto passou por revisões para um registro de conversa, com esclarecimentos da história e retirada de uma urgência sem contexto. A chamada comercial continua em ajuste textual. Não houve nova geração, mudança de mídia, envio ao cliente ou publicação de campanha nesta etapa.
 
 ## Padronização dos headers, decisão de 14/11/2026
 

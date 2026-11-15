@@ -63,3 +63,22 @@ A tabela de criativos passou a trazer todos os anúncios e campanhas com entrega
 ## Atualização de 11/11/2026
 
 O BI e o painel da X1 passaram a viver no mesmo repositório, o [avant-bi](https://github.com/avant-grupo/avant-bi), cada um com o próprio servidor, regras e publicação. A base visual do BI virou um pacote compartilhado, para que os próximos painéis já nasçam com a mesma interface. A tela do BI não mudou.
+
+
+## Formulário de dados de entrega Pix, publicado em 11/11/2026
+
+Publicado pelo [PR #31](https://github.com/avant-grupo/avant-bi/pull/31), commit 6918425. O cliente preenche nome e dados de entrega por um link individual no celular. Em Vendas Extras, a operação acompanha o recebimento, renova um link ainda não usado e recupera o aviso ao atendimento sem duplicar a venda. O aviso tem tentativas automáticas, e a regra do atendimento reconhece dados já recebidos. Testes, banco descartável e navegador conferidos; deploy saudável e painel verificado online. Preenchimento não substitui conferência de pagamento. Próximo: acompanhar os primeiros usos com a operação; aceite ainda não registrado.
+
+
+## Resumos por operação publicados em 11/11/2026
+
+O BI passou a fornecer os dados dos resumos parametrizáveis da Central. O consolidado diário conserva seu cálculo; Yampi e Payt oferecem faturamento, pedidos e ticket médio pela hora real do pagamento. Custos, anúncios e lucro continuam no consolidado diário. O resumo anterior foi preservado, e nenhum novo envio foi ativado nesta publicação. [Dashboards #33](https://github.com/avant-grupo/avant-bi/pull/33).
+
+
+## Gasto do Google Ads no Retorno por campanha, publicado em 11/11/2026
+
+Publicado pelo [PR #32](https://github.com/avant-grupo/avant-bi/pull/32). Um script rodando na conta do Google Ads envia todo dia o gasto por campanha, que entra no bloco Google Ads com ROAS e CPA, como já acontece com a Meta. A tela avisa quando ainda não houve envio ou quando a última leitura tem mais de 36 horas, e recusa conta em moeda diferente de real. Ainda inativo: falta configurar o envio no servidor, trocar a fonte do gasto do bloco em "Configurar blocos" e o gestor de tráfego instalar o script na conta.
+
+## Entrada única publicada, 14/11/2026
+
+Entrada direta e renovação de sessão passam automaticamente pela Central, com perfis preservados. Publicado e verificado online pelo [PR #44](https://github.com/avant-grupo/avant-bi/pull/44). [Estado da frente](../projetos/automacoes-empresa.md).
