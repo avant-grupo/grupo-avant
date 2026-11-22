@@ -1,6 +1,40 @@
 # Geração de conteúdo UGC
 
-Contexto atualizado em 2026-11-13.
+Contexto atualizado em 2026-11-22.
+
+## Direção de cena no Roteiro, 22/11/2026
+
+As escolhas de câmera, ação e apoio passaram a ficar no Roteiro. Na preparação do B-roll, a ação visível segue no pedido do clipe e a locução fica no áudio. O Roteiro foi conferido na bancada publicada. A validação com fornecedor de vídeo simulado cobriu o envio do trecho exato de áudio na fala em quadro. [PR #38](https://github.com/avant-grupo/creator-studio/pull/38).
+
+## Foto da ficha na correção livre, 22/11/2026
+
+A correção livre passou a aceitar uma foto escolhida da ficha junto com outra tomada opcional. A imagem gerada fica disponível para revisão e o pedido anterior pode ser consultado na bancada. A publicação foi conferida em produção. [PR #41](https://github.com/avant-grupo/creator-studio/pull/41).
+
+## Ajustes de imagem no UGC, 22/11/2026
+
+A bancada permite descrever ajustes locais compatíveis no mesmo pedido de imagem, com a opção de usar outra tomada de referência. [PR #40](https://github.com/avant-grupo/creator-studio/pull/40).
+
+## Reparo de rótulo no UGC, 22/11/2026
+
+A bancada passou a corrigir o rótulo pelo nome cadastrado ou por uma foto escolhida da ficha. Cada resultado fica no histórico de tentativas para revisão. Os dois modos foram conferidos na bancada em produção. [Entrega do Creator Studio](https://github.com/avant-grupo/creator-studio/pull/39).
+
+## Fila e montagem de UGC, 22/11/2026
+
+A bancada ganhou recuperação de pedidos e de montagens, aviso de lista incompleta e análise da duração útil do clipe. Os editores podem inspecionar a amostra de quadros e os intervalos marcados. [Entrega do Creator Studio](https://github.com/avant-grupo/creator-studio/pull/37).
+
+## Modelar um vídeo no Creator Studio, 19/11/2026
+
+O Creator Studio passou a ter, em produção, a entrada "Modelar um vídeo": a pessoa envia o arquivo de um vídeo que funcionou, o Studio transcreve a fala, separa a estrutura em blocos com a função de cada um e escreve uma copy nova para o produto escolhido. A copy só afirma do produto o que está na ficha, é conferida em código e por uma pessoa, e o roteiro mantém essas falas palavra por palavra. A mudança passou por revisão de três modelos antes da publicação. Um vídeo de teste de cerca de 28 segundos foi produzido de ponta a ponta no ambiente de produção, da referência ao arquivo legendado, com fala conferida por transcrição. A fala para a câmera com sincronia labial não foi exercitada nesse teste, porque depende de uma persona de IA ainda não cadastrada na empresa usada. Não houve publicação de campanha nem resultado de desempenho.
+
+## Formatos por posicionamento, 16/11/2026
+
+Duas peças femininas foram adaptadas para entregas verticais e de Feed, em oito versões com e sem texto. Áudio, ritmo e versões anteriores foram preservados. A regra do header passou a considerar a área útil de cada posicionamento; o verificador também cobre legendas, CTA e o movimento completo da seta. A adaptação usa o material já gerado, com ajuste fixo de enquadramento para não cobrir os rostos. A verificação técnica e visual dos arquivos foi concluída, sem nova geração. A publicação dessas duas peças e o aceite editorial continuam separados.
+
+## Revisão de ritmo dos criativos, 15/11/2026
+
+Uma nova peça de depoimento teve cenas geradas e montagem local com voz uniforme, música e variantes com e sem texto. A revisão identificou pausas longas entre frases; a edição foi reaberta para retirar silêncio com áudio e imagem vinculados, preservando o material gerado. A ferramenta de qualidade passou a conferir a voz antes da música para detectar tempo morto. O header aprovado também foi restaurado e ligado a uma validação de arte para evitar substituição por título de outro estilo. O acabamento atualizado foi conferido tecnicamente, com fala preservada e pausas curtas. Yuri aprovou a peça, e as versões com e sem texto foram publicadas na pasta de entrega; downloads independentes conferiram a integridade dos dois arquivos. Não houve publicação de campanha.
+
+Na sequência, duas aberturas femininas foram testadas com figurino casual e as mesmas personagens. Após aprovação das aberturas, os dois anúncios foram finalizados em versões com e sem texto, com música, voz tratada e uma passagem ao personagem masculino no fechamento. Uma repetição e um começo incompleto de fala foram corrigidos na edição, preservando o material anterior. Arquivos e montagem passaram pelas checagens técnicas; uma divergência pontual de transcrição permanece documentada. A avaliação de voz e interpretação e o aceite editorial dos dois anúncios continuam pendentes. Não houve publicação desses dois na pasta de entrega nem campanha.
 
 ## Objetivo
 

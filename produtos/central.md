@@ -44,6 +44,16 @@ Gestão > Resumos passou a atender GomaPet, X1 e X1 Yuri, com configuração ind
 
 A Central passou a enviar resumos a grupos registrados por operação. Os resumos da X1 Yuri foram ativados no grupo próprio; os da X1 normal seguem diretamente para Igor, a cada três horas, com gasto em anúncios, faturamento e ROAS. Os primeiros envios foram aceitos pelo provedor. A composição do grupo e o acesso de todos os participantes são conferidos antes de enviar. A criação do grupo foi uma ação operacional, sem ferramenta de criação na Judite. [Central #21](https://github.com/avant-grupo/central/pull/21).
 
+Em 18/11/2026, os resumos das duas operações X1 passaram de a cada três horas para três envios por dia, às 9h, 15h e 21h, cada um cobrindo o período desde o anterior. Avisos e resumos que passam de duas horas na fila, como depois de uma queda do WhatsApp, deixam de ser enviados, e a Central espaça os envios para não mandar mensagens em sequência. [Central #30](https://github.com/avant-grupo/central/pull/30).
+
 ## Entrada única publicada, 14/11/2026
 
 Os dashboards e o Creator Studio passaram a usar a entrada comum pela Central também na abertura direta. A publicação dos quatro produtos foi concluída e verificada online. [Estado da frente](../projetos/automacoes-empresa.md).
+
+## Resumos periódicos voltaram a ser enviados, 16/11/2026
+
+Os resumos programados de uma operação e um resumo diário individual tinham parado de sair sem registrar erro. A causa era a comparação de horário usada para reservar cada envio, que falhava em resumos gravados com precisão maior que a lida pela Central. A comparação foi corrigida e publicada, e o envio pulado na reserva agora fica registrado. O resumo diário saiu logo após a publicação e o resumo programado seguinte da operação saiu no ciclo normal. [Central #24](https://github.com/avant-grupo/central/pull/24).
+
+## Contratos publicados, 16/11/2026
+
+Gestão > Contratos guarda, por empresa, os dados de quem trabalha com o grupo e o contrato assinado, com busca e filtros por vigência. Só administradores da empresa ou do grupo veem a aba. Publicado e conferido online com cadastro, envio do arquivo e remoção de um registro de teste. [Central #25](https://github.com/avant-grupo/central/pull/25).

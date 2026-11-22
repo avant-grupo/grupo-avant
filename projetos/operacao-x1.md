@@ -1,6 +1,42 @@
 # Evolução da Operação X1
 
-Contexto atualizado em 2026-11-14.
+Contexto atualizado em 2026-11-21.
+
+## Segunda oferta adicional na operação principal, 21/11/2026
+
+O atendimento passou a enviar a segunda oferta após a confirmação do pagamento da primeira ou após cinco minutos com o pagamento pendente. Os dois caminhos usam uma reserva única por contato. A abertura é registrada pelo link individual. Dentro da janela de atendimento, há um lembrete aos 30 minutos para quem ainda estiver sem abertura registrada. O chat conclui após a confirmação do pagamento e a pausa automática vem depois da checagem do lembrete. A configuração publicada e a entrega em contato de teste foram conferidas.
+
+## Orientação de pagamento sem Pix, 18/11/2026
+
+Os atendimentos das duas operações orientam pagamento por depósito quando a pessoa informa que não consegue usar Pix. A resposta foi verificada em teste após o primeiro lembrete de cada operação. O pedido de reenvio imediato na operação paralela ficou por verificar na versão final.
+
+## Entradas que chegam antes do anúncio no catálogo, 18/11/2026
+
+Quando uma pessoa chega por um anúncio que o Rastrack ainda não conhece, a entrada fica sem rota até a próxima sincronização do catálogo. Antes, essa revisão percorria todas as entradas abertas do número numa única operação, que passava do tempo limite nos números com muito volume, e mesmo quando terminava não gerava o lead. Agora a revisão olha só as entradas das últimas 72 horas, grava em lotes e manda cada entrada resolvida para o mesmo caminho de uma entrada nova, com a deduplicação de sempre. Publicado no mesmo dia. Na primeira sincronização depois da publicação, as entradas presas da operação principal viraram lead e foram aceitas pela Meta.
+
+## Pagos vão para concluído na operação paralela, 18/11/2026
+
+A operação paralela passou a seguir o modelo da principal. Pagamento marcado à mão segue a mesma confirmação e oferta do pagamento conferido pelo atendimento automático, sem repetir mensagens. Pagamento da oferta extra marcado à mão, recusa da oferta, oferta sem resposta em 24 h e aceite sem pagamento em 24 h movem a conversa para concluído. Publicado e testado por conversa no mesmo dia; uma limpeza única concluiu as conversas pagas paradas em que o atendimento falou por último. Conversas pagas em que o cliente escreveu por último continuam com a equipe, porque essa operação não tem resposta automática fora das perguntas do fluxo.
+
+## Quatro criativos com gancho novo, 16/11/2026
+
+Produzidas e entregues quatro peças para a operação paralela com um gancho novo, cada uma contada por uma pessoa diferente: compadre, esposa, dono de motel e noiva. Têm de 36 a 52 segundos, em 9:16 e 4:5, com e sem texto. Foram geradas no Google Flow da empresa, conferidas, pós-processadas e colocadas na pasta de criativos para publicação. Depois de uma faixa escura no 9:16 de uma das peças, a conferência final passou a reprovar faixa escura fixa na borda do vídeo. Os anúncios ainda não foram criados, e o cadastro das tags no atendimento depende deles. Nenhum resultado medido.
+
+## Lead qualificado e pedido de comprovante, 16/11/2026
+
+O rastreamento (Rastrack) passou a receber do atendimento o evento de lead qualificado, com regra própria por número e separada da regra de compra, contado uma vez por lead. Nas duas operações, o evento sai quando a pessoa aceita receber a segunda parte da oferta. Publicado e ativo nos dois números no mesmo dia. A planilha de leads qualificados ainda não existe, e na operação principal o aceite respondido por áudio não é classificado.
+
+O pedido de comprovante passou a sair em mensagem fixa junto com os dados de pagamento, nas duas operações, em vez de depender da resposta da IA. A instrução da IA foi ajustada para não pedir o comprovante duas vezes, e uma resposta vazia deixou de virar mensagem ao cliente.
+
+Os avisos de estorno e de pagamento alto e o encerramento do recontato em ameaça, descritos abaixo, foram testados também por conversa na operação principal.
+
+## Estorno e pagamento alto avisam a equipe, 16/11/2026
+
+Depois de avisos indevidos em perguntas comuns, o atendimento automático deixou de mandar a mensagem de caso registrado. Agora a equipe recebe aviso em dois casos: quem já pagou e pede o dinheiro de volta, e pagamento acima do padrão. Ameaça explícita só encerra as cobranças e move a conversa para concluído, sem aviso. Testado na operação paralela.
+
+## Atendimento humano nas duas operações, 15/11/2026
+
+Publicado nas operações principal e paralela o encaminhamento para a equipe quando a pessoa pede reembolso, fala em denúncia ou faz ameaça. O atendimento automático responde uma vez dizendo que a equipe assumiu e se pausa, e a secretária avisa a equipe da operação de origem com o link da conversa. Um pagamento acima do padrão só gera um aviso interno para conferência, sem mensagem ao cliente. Teste feito em contato de teste na operação paralela; na principal, só foi conferida a chamada. Falta observar o primeiro caso real e definir o grupo da equipe da operação principal.
 
 ## Retorno por anúncio novo, 14/11/2026
 

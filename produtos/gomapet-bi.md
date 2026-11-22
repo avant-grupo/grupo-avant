@@ -82,3 +82,9 @@ Publicado pelo [PR #32](https://github.com/avant-grupo/avant-bi/pull/32). Um scr
 ## Entrada única publicada, 14/11/2026
 
 Entrada direta e renovação de sessão passam automaticamente pela Central, com perfis preservados. Publicado e verificado online pelo [PR #44](https://github.com/avant-grupo/avant-bi/pull/44). [Estado da frente](../projetos/automacoes-empresa.md).
+
+## Aba WhatsApp na Tráfego, publicada em 17/11/2026
+
+A Tráfego ganhou a aba WhatsApp. Ela mostra, por anúncio, campanha ou conta, o gasto na Meta, os leads do ROI Chat, as vendas pagas da Yampi e do checkout novo e a receita, com ROAS e custos. A receita aparece separada em vendas do período e remarketing, como no painel da X1. Publicada pelo [PR #48](https://github.com/avant-grupo/avant-bi/pull/48) depois da comparação com o painel da X1 no mesmo período.
+
+No mesmo dia, o [PR #52](https://github.com/avant-grupo/avant-bi/pull/52) passou a contar o resultado de cada campanha pela compra que o conjunto otimiza, no site ou na conversa, como a coluna Resultados do Gerenciador. A aba também passou a ler o gasto de contas de anúncio fora das vagas de Configurações quando a integração já tem acesso a elas. O código publicado foi conferido em produção, em leitura. A tela logada e o aceite ainda não foram conferidos.

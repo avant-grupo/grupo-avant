@@ -64,3 +64,15 @@ verificada sem avisos; acompanhamento do próximo envio automático ainda penden
 ## Entrada única publicada, 14/11/2026
 
 As duas instalações usam automaticamente a Central na entrada direta, com provisionamento dos novos usuários autorizados e preservação das permissões existentes. Publicação concluída e conferida online; a otimização anterior foi preservada no código versionado. [PR #44](https://github.com/avant-grupo/avant-bi/pull/44).
+
+## Custo por lead e consultas da secretária, publicados em 16/11/2026
+
+O painel das duas instalações ganhou o card "Custo por lead" em Leads e conversão, com comparação ao período anterior, e a mesma coluna na tabela por número. O cálculo é o que o painel já fazia: gasto de anúncios dividido pelos leads novos, com os mesmos filtros. Sem lead novo ou sem conta de anúncio ligada, o campo fica vazio e diz o motivo. [Dashboards #46](https://github.com/avant-grupo/avant-bi/pull/46).
+
+No mesmo dia, o limite de consultas de leitura por agente foi ampliado. A secretária da Central recebia recusas ao comparar funil e compras em vários recortes seguidos; depois da publicação, uma sequência de 30 consultas passou sem recusa. A leitura por agente da X1 Yuri segue sem configuração, e ainda não há consulta de ROAS da X1. [Dashboards #45](https://github.com/avant-grupo/avant-bi/pull/45).
+
+Também em 16/11, o painel deixou de contar como compra descartada um lead qualificado recebido em repetição. [Dashboards #47](https://github.com/avant-grupo/avant-bi/pull/47).
+
+## Pix sem comprovante no X1 Yuri, 16/11/2026
+
+O robô do X1 Yuri só marcava venda quando o cliente mandava o comprovante. Quem pedia a outra pessoa para fazer o Pix ficava sem venda marcada e continuava sendo cobrado, mesmo com o dinheiro na conta. Agora, quando o cliente diz que pagou e não tem o comprovante, o robô pergunta o nome de quem fez o Pix e o valor, deixa uma nota na conversa, suspende as cobranças e marca o contato para a equipe conferir no extrato. A marcação de pago depois da conferência ainda é manual. Quando o comprovante mostra outro recebedor, o robô diz ao cliente o nome que aparece nele, explica que o valor não chegou, manda a chave certa e marca o contato para conferência.
