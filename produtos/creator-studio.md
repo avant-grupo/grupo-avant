@@ -55,3 +55,11 @@ A correção livre passou a aceitar uma foto escolhida da ficha junto com outra 
 ## Direção de cena no Roteiro, 22/11/2026
 
 O Roteiro passou a registrar enquadramento, aparelho em cena e apoio na abertura de recipientes. A bancada pede edição quando identifica conflito entre a direção e a ação. Os controles foram conferidos na bancada publicada. [PR #38](https://github.com/avant-grupo/creator-studio/pull/38).
+
+## Roteiros UGC que vendem e soam falados, 24/11/2026
+
+O roteiro passou a ser escrito em três etapas: história, oralidade e decupagem. Entre elas, o próprio Studio mede vícios de texto escrito e devolve a fala uma vez para correção. O Studio deixou de suavizar as falas por conta própria. Na resposta direta, a regra de saúde só veta uma fala quando o parecer aponta o trecho e o código o encontra no roteiro.
+
+A bancada ganhou variações de gancho sobre um corpo fixo e prévia de voz da copy modelada. A conferência automática agora aponta a fala de pagamento que perdeu a condição da oferta.
+
+Antes do merge, quatro modelos revisaram a mudança em nove rodadas, até nota 9. O [PR #43](https://github.com/avant-grupo/creator-studio/pull/43) foi publicado e conferido na bancada em produção, sem nova geração paga.
