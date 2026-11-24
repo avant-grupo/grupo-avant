@@ -67,3 +67,7 @@ A pedido do Igor, o agente dele ganhou nome e foto "de CEO": agora se chama Clá
 ## Claudinhos guardam preferências e criam as próprias skills, 18/11/2026
 
 Cada Claudinho agora guarda como cada pessoa do grupo gosta de ser atendida (formato, tamanho, canal, horário) e ajusta isso quando a pessoa muda de ideia. Quando repete um método ou alguém ensina um passo a passo, o agente o guarda como skill própria na memória dele e passa a usar a partir da conversa seguinte. No fechamento de cada sessão, ele revisa preferências, tarefas e fichas. Preferência não muda as regras nem os limites do agente.
+
+## Claudinhos mais rápidos e com avisos separados, 24/11/2026
+
+Publicado em 24/11. Os três agentes passaram a responder por um processo que fica ligado, em vez de abrir um novo a cada mensagem, e a mandar o trabalho longo para subagentes com limite de tempo e de rodadas. Quando algo falha, o dono recebe um aviso simples no grupo e o detalhe técnico vai em particular para o moderador. O comando de parar interrompe o turno e os subagentes. A Central guarda o áudio original antes de transcrever e entrega as respostas sem espera na fila. O conector do ROI Chat ganhou histórico do contato, disparo de subfluxo e lote que pode ser retomado. Ainda não medido: tempo de resposta com os donos usando no dia a dia.
