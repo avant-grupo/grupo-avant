@@ -88,3 +88,9 @@ Entrada direta e renovação de sessão passam automaticamente pela Central, com
 A Tráfego ganhou a aba WhatsApp. Ela mostra, por anúncio, campanha ou conta, o gasto na Meta, os leads do ROI Chat, as vendas pagas da Yampi e do checkout novo e a receita, com ROAS e custos. A receita aparece separada em vendas do período e remarketing, como no painel da X1. Publicada pelo [PR #48](https://github.com/avant-grupo/avant-bi/pull/48) depois da comparação com o painel da X1 no mesmo período.
 
 No mesmo dia, o [PR #52](https://github.com/avant-grupo/avant-bi/pull/52) passou a contar o resultado de cada campanha pela compra que o conjunto otimiza, no site ou na conversa, como a coluna Resultados do Gerenciador. A aba também passou a ler o gasto de contas de anúncio fora das vagas de Configurações quando a integração já tem acesso a elas. O código publicado foi conferido em produção, em leitura. A tela logada e o aceite ainda não foram conferidos.
+
+## Tela dedicada Criativos e validação do Google Ads, 23/11/2026
+
+Publicada pelo [PR #70](https://github.com/avant-grupo/avant-bi/pull/70) (commit `0f345c36`) a tela dedicada **Criativos** (`/criativos`, `id: "criativos"`), disponível na seleção de telas por perfil da Central. Perfis liberados apenas para essa tela acessam o Gerenciador de criativos (com alternância entre atribuição da Meta e dados dos pedidos e filtro por conta), sem abrir o dashboard geral, Retorno por campanha, Resumo da conta/MER, Conferência, custos ou demais abas. Catálogo em `/api/auth/central/telas`, deploy saudável e tela autenticada conferidos em produção.
+
+Na mesma data, a leitura diária do Google Ads no bloco Google do Retorno por campanha foi conferida ativa em produção (gasto diário por campanha carregado até 22/11/2026), superando o estado "Ainda inativo" registrado em 11/11/2026.
