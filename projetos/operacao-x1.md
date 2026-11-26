@@ -1,6 +1,10 @@
 # Evolução da Operação X1
 
-Contexto atualizado em 2026-11-21.
+Contexto atualizado em 2026-11-25.
+
+## Limpeza automática de conversas inativas nas duas operações, 25/11/2026
+
+Publicada e ativada em produção a rotina automática que move para concluído conversas abertas sem resposta do robô ou sem interação há mais de 48 horas, incluindo mídias recorrentes sem legenda ("bom dia", fotos, figurinhas e reações), nas operações principal e paralela. A implementação protege atendimentos atribuídos ou respondidos por humanos, etiquetas de suporte, demandas recentes (texto, áudio, arquivo ou mídia com legenda) e reaberturas manuais recentes, além de preservar pausas ativas do robô e manter o número da GomaPet isolado. Depois de testes em contato de teste e reauditoria em simulação, as primeiras rodadas ativas concluíram conversas reais nas duas operações sem erros e dentro da reserva de cota. Próximo passo: acompanhar a drenagem gradual da fila antiga. [Dashboards #71](https://github.com/avant-grupo/avant-bi/pull/71) e [#72](https://github.com/avant-grupo/avant-bi/pull/72).
 
 ## Segunda oferta adicional na operação principal, 21/11/2026
 
