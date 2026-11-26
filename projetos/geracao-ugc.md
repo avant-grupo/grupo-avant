@@ -1,6 +1,12 @@
 # Geração de conteúdo UGC
 
-Contexto atualizado em 2026-11-22.
+Contexto atualizado em 2026-11-26.
+
+## Método de copy da aula do Derick Carneiro, 26/11/2026
+
+O Roteiro do Creator Studio ganhou os quatro arquétipos da aula (UGC testemunhal, curiosidade científica, receita estranha e conspiracionista) como estruturas, o formato como variável própria, com 15 formatos de vídeo, a ficha de variáveis no briefing, com a variável testada e o controle, e o checklist de 22 perguntas como aviso no Roteiro e na Copy. A publicação foi conferida em produção. [PR #47](https://github.com/avant-grupo/creator-studio/pull/47).
+
+No mesmo dia, a pedido de Yuri, o método local UGC Criativos recebeu a mesma adaptação nas etapas de brief, estratégia, roteiro e variações, incluindo micropersonas e leva montada por micropersona. As regras aprovadas antes continuam valendo onde a aula diz outra coisa. Mudança documental, sem peça feita com o método nem resultado de desempenho.
 
 ## Direção de cena no Roteiro, 22/11/2026
 
